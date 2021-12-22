@@ -157,7 +157,7 @@ class PlayColombia:
             # Se cargan las preguntas y respuestas del archivo
             pregunta, opcion1, opcion2, opcion3, opcion4, respuesta, mensaje = self.cargarPreguntas()
             print("\n\nSi desea salir del juego responda Z\n")
-            print("Ronda ", self.__categoria, "    -   ", self.puntosRonda(), "R: ", respuesta)
+            print("Ronda ", self.__categoria, "    -   ", self.puntosRonda())
             print("   * ", pregunta)
             print("   A. ", opcion1)
             print("   B. ", opcion2)
